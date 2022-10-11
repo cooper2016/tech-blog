@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Tech is cool",
+    "description": "I like tech alot.",
+    "user_id": 1
+  },
+  {
+    "title": "Tech is boring",
+    "description": "I dont like tech.",
+    "user_id": 2
+  },
+  {
+    "title": "Tech is intesting",
+    "description": "Tech makes me think alot.",
+    "user_id": 4
+  },
+  {
+    "title": "Tech is ok",
+    "description": "I think tech is ok at best.",
+    "user_id": 3
+  }
+ 
+]
