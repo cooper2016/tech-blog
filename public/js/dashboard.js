@@ -3,9 +3,11 @@ const newFormHandler = async (event) => {
 
   const postTitle = document.querySelector("#post-title").value.trim();
   const description = document.querySelector("#post-desc").value.trim();
+  console.log(postTitle);
+  console.log(description);
 
   if (postTitle && description) {
-    const response = await fetch(`/api/projects`, {
+    const response = await fetch(`/api/posts`, {
       method: "POST",
       body: JSON.stringify({ postTitle, description }),
       headers: {
@@ -13,10 +15,12 @@ const newFormHandler = async (event) => {
       },
     });
 
+    console.log("hi");
+
     if (response.ok) {
-      document.location.replace("/profile");
+      document.location.replace("/");
     } else {
-      alert("Failed to create post");
+      alert("HI");
     }
   }
 };
@@ -30,7 +34,7 @@ const delButtonHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace("/profile");
+      document.location.replace("/dashboard");
     } else {
       alert("Failed to delete post");
     }

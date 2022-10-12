@@ -17,6 +17,16 @@
   {
     "title": "Tech is ok",
     "description": "I think tech is ok at best.",
+    "user_id": 2
+  },
+  {
+    "title": "Tech is funny",
+    "description": "I think tech is fun becasue it is always evolving.",
+    "user_id": 1
+  },
+  {
+    "title": "Tech is great",
+    "description": "I like learning tech in my spare time.",
     "user_id": 3
   }
  
