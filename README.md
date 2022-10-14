@@ -5,3 +5,4 @@ This is a tech blog for users that want to stay up to date with tech related top
 
 ## Link to application
 
+https://tech-blog123321.herokuapp.com/
